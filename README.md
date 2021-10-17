@@ -14,5 +14,8 @@ Research Results:
     3. Token-based / Stateless - A physical hardware, such as a USB, which contains a key to unlock a user's account
 <br> <br>
     <p>I will be creating an <b>offline password manager</b> which will first hash and maybe even salt passwords before inputting them into the SQL database i will create with SQLite, a serverless database.</p>
+    Source: <a>https://cybernews.com/best-password-managers/how-do-password-managers-work/</a>
+
 2. Researching
+
 3. Have not started researching
