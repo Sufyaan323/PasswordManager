@@ -19,4 +19,5 @@ Research Results:
 2. Hashing changes the input into a series of characters, letters and numbers, using an encryption algorithm. The length of the hash will depend on the hash funtion used and the size of the hash will always be the same length, whether it be the input is 1 character or 100 characters.<br>
     <p>Source: <a href="https://thycotic.com/company/blog/2020/05/07/how-do-passwords-work/">https://thycotic.com/company/blog/2020/05/07/how-do-passwords-work/</a></p><br>
 
-3. Researching
+3. A built in Python module called sqlite3 can be used to allow a python script to interact with an SQLite database.<br>
+    <p>Source: <a href="https://docs.python.org/3/library/sqlite3.html">https://docs.python.org/3/library/sqlite3.html</a></p><br>
