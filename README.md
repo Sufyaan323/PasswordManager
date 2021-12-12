@@ -13,11 +13,11 @@ Research Results:
     2. Online - The passwords are stored on a remote server
     3. Token-based / Stateless - A physical hardware, such as a USB, which contains a key to unlock a user's account
     
-    <p>I will be creating an <b>offline password manager</b> which will first hash and maybe even salt passwords before inputting them into the SQL database i will create with SQLite, a serverless database.</p>
+    <p>I will be creating an <b>offline password manager</b> which will use SQLcipher to encrypt an SQLite database.</p>
     <p>Source: <a href="https://cybernews.com/best-password-managers/how-do-password-managers-work/">https://cybernews.com/best-password-managers/how-do-password-managers-work/</a></p><br>
 
-2. Hashing changes the input into a series of characters, letters and numbers, using an encryption algorithm. The length of the hash will depend on the hash funtion used and the size of the hash will always be the same length, whether it be the input is 1 character or 100 characters.<br>
+2. Hashing changes the input into a series of characters, letters and numbers, using an hashing algorithm. The length of the hash will depend on the hash funtion used and the size of the hash will always be the same length, whether it be the input is 1 character or 100 characters.<br>
     <p>Source: <a href="https://thycotic.com/company/blog/2020/05/07/how-do-passwords-work/">https://thycotic.com/company/blog/2020/05/07/how-do-passwords-work/</a></p><br>
 
-3. A built in Python module called sqlite3 can be used to allow a python script to interact with an SQLite database.<br>
-    <p>Source: <a href="https://docs.python.org/3/library/sqlite3.html">https://docs.python.org/3/library/sqlite3.html</a></p><br>
+3. A Python module called pysqlcipher3 can be used to allow a python script to interact with an encrypted SQLite database.<br>
+    <p>Source: <a href="https://github.com/rigglemania/pysqlcipher3">https://github.com/rigglemania/pysqlcipher3</a></p><br>
