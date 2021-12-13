@@ -2,6 +2,11 @@
 <p>A Python project which uses SQLite to create and store usernames and passwords, as well as the website name.</p>
 
 ---
+Requirements:
+1. SQLite
+2. SQLCipher
+3. pysqlcipher3
+---
 Research Needed:
 1. How does a password manager works?
 2. How does hashing work?
